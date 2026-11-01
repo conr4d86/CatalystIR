@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-01",
+  "version": "2.0.0-alpha.1",
+  "app_sha256": "6042df0ab35b94ba6fed67cef55e13e03cab6db2afb089aac87dc31b3d666b20",
+  "app_bytes": 6609408,
+  "firmware_patch_sha256": "82161d5b805f3c89da5ae0172075e0cc3b96f71fb07e40053240063fda0788fa",
+  "bundle_components": 100,
+  "auxiliary_executables": 0,
+  "personal_wavs_or_presets_embedded": false,
+  "slots": [
+    "IR1",
+    "IR2",
+    "IR3"
+  ],
+  "offline_arm": {
+    "status": "PASS OFFLINE; physical v2 trial pending",
+    "scope": "Offline ARM checks for v2: distinct banks, transitions, fallback and routing.\n\nReal Reset_Handler copy/zero loops and native graph/DSP instructions execute.\nHardware init, synchronization and graph fixture stubs remain explicit. No\nUSB, transfer, actual timing, audible result or physical cold boot is proved.\n",
+    "patch_sha256": "82161d5b805f3c89da5ae0172075e0cc3b96f71fb07e40053240063fda0788fa",
+    "real_reset_copies_verified": true,
+    "dtcm_size_unchanged": true,
+    "fft_kernel_unchanged": true,
+    "initial_cabinet_fixture_arms": [
+      0,
+      1,
+      2
+    ],
+    "banks_ready_before_publication": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      2
+    ],
+    "transitions": [
+      {
+        "source": 0,
+        "target": 0,
+        "impulse_max_error": 1.3969838632242604e-11,
+        "random_max_error": 9.176932998233855e-11
+      },
+      {
+        "source": 0,
+        "target": 1,
+        "impulse_max_error": 4.1375347592520484e-11,
+        "random_max_error": 2.1321837568102908e-10
+      },
+      {
+        "source": 0,
+        "target": 2,
+        "impulse_max_error": 1.583248376152424e-10,
+        "random_max_error": 3.4587760986467403e-10
+      },
+      {
+        "source": 1,
+        "target": 0,
+        "impulse_max_error": 1.3969838632242604e-11,
+        "random_max_error": 9.095294092528738e-11
+      },
+      {
+        "source": 1,
+        "target": 1,
+        "impulse_max_error": 4.1375347592520484e-11,
+        "random_max_error": 2.0326021920279158e-10
+      },
+      {
+        "source": 1,
+        "target": 2,
+        "impulse_max_error": 1.583248376152424e-10,
+        "random_max_error": 2.9652687228397256e-10
+      },
+      {
+        "source": 2,
+        "target": 0,
+        "impulse_max_error": 1.3969838632242604e-11,
+        "random_max_error": 9.342219809164651e-11
+      },
+      {
+        "source": 2,
+        "target": 1,
+        "impulse_max_error": 4.1375347592520484e-11,
+        "random_max_error": 2.000050426925054e-10
+      },
+      {
+        "source": 2,
+        "target": 2,
+        "impulse_max_error": 1.583248376152424e-10,
+        "random_max_error": 3.166078540832451e-10
+      }
+    ],
+    "routing": [
+      {
+        "cabinet_symbol": 238,
+        "bit_identical_buses": [
+          0,
+          1,
+          2,
+          8,
+          9
+        ]
+      },
+      {
+        "cabinet_symbol": 257,
+        "bit_identical_buses": [
+          0,
+          1,
+          2,
+          8,
+          9
+        ]
+      },
+      {
+        "cabinet_symbol": 259,
+        "bit_identical_buses": [
+          0,
+          1,
+          2,
+          8,
+          9
+        ]
+      }
+    ],
+    "empty_slot_factory_parity": [
+      238,
+      259
+    ],
+    "enabled_masks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "audio_reads_flash": [],
+    "audio_executes_flash": []
+  },
+  "offline_container": {
+    "passed": true,
+    "checks": 30,
+    "masks": 7,
+    "guards": "code, FFT, disabled slots, mask, metadata, corrupt CTF",
+    "scope": "offline; no USB"
+  },
+  "offline_profile_migration": {
+    "passed": true,
+    "checks": 9,
+    "scope": "offline fixtures only; no personal files or USB changed"
+  },
+  "offline_ui": {
+    "passed": true,
+    "independent_same_wav_profiles": true,
+    "all_slot_recipe": true,
+    "empty_slot_allowed": true,
+    "reload_preserves_profiles": true,
+    "opening_starts_empty": true,
+    "same_wav_can_be_reinstalled": true,
+    "each_single_slot_install_allowed": true,
+    "pending_installation_resumes_slots": true,
+    "journal_preserved_on_open": true,
+    "changed_gain_requires_reinstall": true,
+    "usb_disables_workspace": true,
+    "scope": "offline UI state only; no USB opened"
+  },
+  "windows_icon": {
+    "embedded_in_executable": true,
+    "window_icon": true,
+    "frame_sizes": [
+      16,
+      24,
+      32,
+      48,
+      64,
+      128,
+      256
+    ]
+  },
+  "csharp_python_parity": {
+    "passed": true,
+    "masks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exact_arm_image_parity": true
+  },
+  "usb_preflight": {
+    "passed": true,
+    "candidate_hash_matched": true,
+    "install_rejected": true,
+    "firmware_written": false
+  },
+  "physical_v2": {
+    "observed_date": "2026-11-01",
+    "firmware_installed": true,
+    "evidence": "User installation screenshot and active app journal after transfer/reboot/activation; candidate file hash matches journal. No full flash readback.",
+    "candidate_sha256": "439aa011588a170219eca2993bcdc1009930d7df891fb5e5498dc26341e4a810",
+    "template_sha256": "82161d5b805f3c89da5ae0172075e0cc3b96f71fb07e40053240063fda0788fa",
+    "app_phase": "active",
+    "boot_recall_saved": true,
+    "headphones_audio_confirmed": false,
+    "all_slots_cold_boot_confirmed": false,
+    "user_reports": "Los 3 IR funcionan bien.",
+    "all_three_ir_audio_confirmed": true,
+    "audio_confirmation_source": "User report on 2026-11-01: Los 3 IR funcionan bien.",
+    "independent_audio_measurement": false
+  },
+  "published": false
+}

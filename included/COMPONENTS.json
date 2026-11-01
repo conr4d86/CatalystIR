@@ -1,0 +1,407 @@
+{
+  "schema": "CatalystIR.IntegratedComponents.v1",
+  "bundle_sha256": "c110857b687e467b1b76614c6f93e1dd8832ca3367ce1b1cb8dc1606b0e3c9ad",
+  "files": [
+    {
+      "path": "central/.vendor-runtime-central",
+      "sha256": "64b94f954720312e7cf4a38d53a2101549cd2b40a4c97766f112e95653edc11c"
+    },
+    {
+      "path": "central/EngineCLIWrapper.dll",
+      "sha256": "0c6d86e5c611ae0cef3437a6a3fe96174a9711ccd917c7134cdcb64d6eabf5cd"
+    },
+    {
+      "path": "central/Interposer.dll",
+      "sha256": "86efd2f9a9d5f5b1de9d60a92a3857e574f299f3a689b144a97b0e324e5eb037"
+    },
+    {
+      "path": "central/L6ConfigAmplifi.xml",
+      "sha256": "6c4e44397a671422cb93087d408e8a2e6a4e11d9173fbd8881560df86455551f"
+    },
+    {
+      "path": "central/Microsoft.Toolkit.Wpf.UI.Controls.WebView.dll",
+      "sha256": "3e3c00f920c5361662ac427275584332d11c4f22306536374ad5fd6a3823b87f"
+    },
+    {
+      "path": "central/Newtonsoft.Json.dll",
+      "sha256": "e1e27af7b07eeedf5ce71a9255f0422816a6fc5849a483c6714e1b472044fa9d"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_AppStringTable.json",
+      "sha256": "e4b64af31e640919ddfb7d2d222810a36754cc35a9c6720d81572b40062966fb"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_BasicTypes.json",
+      "sha256": "17f0e98840a6af4e50dd106ed8bbfd643d3c52d528ae72d1cac09081cccd1770"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_BlastShield.json",
+      "sha256": "1337c7899f4eee4cc8d46abffe8c1bd9b56e484fa8a19abcc3c5a2bbeb92eaaf"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_DevicePickerItem.json",
+      "sha256": "4e7586769bc1306e55aee7936efc7fd577b4e35ec84789daabca869865bcb419"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_EngineData.json",
+      "sha256": "141242aec2cb289dd48b46a14ef2b52e05596608d67e9e4ab8c0e5c2119ed9cf"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_LoginManager.json",
+      "sha256": "bda1767aaeedbcd018d0e207fd20c55e9fe4e615f0721a310492b7a3204dbeae"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_MainContainer.json",
+      "sha256": "8ed676c651c52d049792f8a76c782c7e4ce1b1cc4d06e91ae3a6a93d2b5175f7"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_MainUI.json",
+      "sha256": "0a931836cf99b8f76995ee75d9db4cceaafa07a8e14384eadafc7ad0a2228dbf"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_MainUpdaterView.json",
+      "sha256": "2c96737cca9c5397d6817e0a68601cf879ed50d3bf3a44063deebb8f4d5ced19"
+    },
+    {
+      "path": "central/PresentationScripts/QuadPlatform_ValueLists.json",
+      "sha256": "f428daf18b061d381cc7b2dc3d856236d250b4e06ada66c743cf7fa4f9f08b9a"
+    },
+    {
+      "path": "central/System.ValueTuple.dll",
+      "sha256": "e905d102585b22c6df04f219af5cbdbfa7bc165979e9788b62df6dcc165e10f4"
+    },
+    {
+      "path": "central/UpdaterV3EngineDLL.dll",
+      "sha256": "d24bb48b0f13d9b46c6dd514e712c347ff9a00d4763555614f700c22634bebc7"
+    },
+    {
+      "path": "central/cyusbserial.dll",
+      "sha256": "3c82cb7a77486c085f2bc9196d5417a0f2cb7c4226ae74f0028ceaf502c812ab"
+    },
+    {
+      "path": "central/libusb-1.0.dll",
+      "sha256": "fc2fa608102219ac76ba3a751c101ec1315819d1f4efa2fefb3f8c1fb6ff33d7"
+    },
+    {
+      "path": "central/msvcp140.dll",
+      "sha256": "f0cda2a0cf1fe6fbbf579b9098462329d3aaa7513a207af2e0f33b01456e388a"
+    },
+    {
+      "path": "central/pthreadVC2.dll",
+      "sha256": "7e544116c6596ff4fa50ce052f49e2988926bea12a12af3003d56f157a43a7b3"
+    },
+    {
+      "path": "central/res/AMPLIFiFamilySteps.json",
+      "sha256": "cb563ec6f61ebb7526cf76c1a08e9754f103f5a02cd810c2f9a5e606fba0b9ae"
+    },
+    {
+      "path": "central/res/CatalystSteps.json",
+      "sha256": "66fb3333a376eec1fedf5da04af5eea0118fa1b87af1392669d3d89189690a45"
+    },
+    {
+      "path": "central/res/DL4MKIISteps.json",
+      "sha256": "11a46e7035011449b6c542753e423adcbb93e97d789988858a534febd44f8a20"
+    },
+    {
+      "path": "central/res/FBVMKIIISteps.json",
+      "sha256": "8b28e66418956fdcc5c2475b117874af93ceab138a1c869c26bf755fbba0561c"
+    },
+    {
+      "path": "central/res/FirehawkFamilySteps.json",
+      "sha256": "4cf1d33a5e52dc1e00c1c61aed3b426f9bedfbac2c9faeddbf41b1dd1866282b"
+    },
+    {
+      "path": "central/res/HXEffectsStompSteps.json",
+      "sha256": "ae0fa1976740e9e35998db574dc2483b8f737a679b5012a03a6c60b99eb2bc97"
+    },
+    {
+      "path": "central/res/HXOneSteps.json",
+      "sha256": "1eeb05b192df67fd354e1d49e7f970a73cb6883610244159e91bad2a68e17e06"
+    },
+    {
+      "path": "central/res/HelixLTRackFloorSteps.json",
+      "sha256": "e93e87be344bf40c7f3368a0c9da1b9013dcbdc30c3e6d1d7b0d4cea5790e254"
+    },
+    {
+      "path": "central/res/HelixStadiumSteps.json",
+      "sha256": "00d2219034b105bc42a1956da53bbdf4ade2e2c14083f907669daf63f7f6491a"
+    },
+    {
+      "path": "central/res/MonkeyUUEAndCamelDeviceSteps.json",
+      "sha256": "588c915bb07af19ddf371ca99bc6db9e54a6349d0dc011157d16c3e2f1279bb0"
+    },
+    {
+      "path": "central/res/MonkeyUUEAndCamelDeviceStepsUSBPower.json",
+      "sha256": "7ee4a1ad231bf6acb09e30fc94bf910f7f59741e346a65b30e80f9687c1002af"
+    },
+    {
+      "path": "central/res/PODExpressSteps.json",
+      "sha256": "44f4150617fc1a2f0f8b4fca2d19c2280e1f730759339e4939ba8d16f1c1356a"
+    },
+    {
+      "path": "central/res/PODGOSteps.json",
+      "sha256": "2bcb8580299d66304f1b0b879084fd3e413e22ee965f610c73e1d97cd8cdd5e0"
+    },
+    {
+      "path": "central/res/PowercabCLSteps.json",
+      "sha256": "abb58c63743d75f46dd158cedf05e7d1f4b74a1f66dc4207548c9dfa5199f24b"
+    },
+    {
+      "path": "central/res/PowercabSteps.json",
+      "sha256": "12af74fba74e0b1058fa17fc7a6a87aaf8935c67e804a28c257994bbab9282e4"
+    },
+    {
+      "path": "central/res/RelayG10RAndSSteps.json",
+      "sha256": "3055648867ffffee5808eb4a2c44d2a4969f6c3ef129da242d6d52d179c0b4e9"
+    },
+    {
+      "path": "central/res/RelayG70G75Steps.json",
+      "sha256": "e454f32789b3d49de5ea1e324ebb97e060eac3e24208cfe525f89ada413b5496"
+    },
+    {
+      "path": "central/res/RelayTB516GSteps.json",
+      "sha256": "b043f45a4e7dbdb93cd6b6db73b1bc97046f6a571d744b9104c2e7a080c9b7b2"
+    },
+    {
+      "path": "central/res/SpiderVSteps.json",
+      "sha256": "323b1208bee7b9b3b42a94ca04319711bbec7030518a3cea9c4ed3de7b3eaa9e"
+    },
+    {
+      "path": "central/res/Variax.json",
+      "sha256": "c324fad8b50f7e2d0a0b3c970c4019e9031c92f8955eec4baef521c711186f77"
+    },
+    {
+      "path": "central/vcruntime140.dll",
+      "sha256": "2fa6efc053203460a23d3a25158f227d895d2dadc63acc1a372da97c3a4281c3"
+    },
+    {
+      "path": "editor/.vendor-runtime-editor",
+      "sha256": "64b94f954720312e7cf4a38d53a2101549cd2b40a4c97766f112e95653edc11c"
+    },
+    {
+      "path": "editor/APIV3EngineDLL.dll",
+      "sha256": "6d5325b93e3f8b973525cbf97cba38606c5af56aab48a07e8a9e058f6b23d1aa"
+    },
+    {
+      "path": "editor/AssetDefs.plist",
+      "sha256": "44c1a60e6b00d84ce4294fc21205003a9afbe9e52f2a240990f64291ff28d8f8"
+    },
+    {
+      "path": "editor/EngineCLIWrapper.dll",
+      "sha256": "3bf91c3198652a814ded6d3a1739ac670820aef5ef5ea911cccc572680f02581"
+    },
+    {
+      "path": "editor/Interposer.dll",
+      "sha256": "86efd2f9a9d5f5b1de9d60a92a3857e574f299f3a689b144a97b0e324e5eb037"
+    },
+    {
+      "path": "editor/Microsoft.Toolkit.Wpf.UI.Controls.WebView.dll",
+      "sha256": "dc7dd762ba71efb34d0c6f1c6050d36a6132dce7314acc6ac8f983b7117513c2"
+    },
+    {
+      "path": "editor/Newtonsoft.Json.dll",
+      "sha256": "6cc0cbcd5c4709c6a1c97f5581c347d93e586e7cc0d64bffb4d32c6e753476a4"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_ActionMenus.json",
+      "sha256": "f7459a64793dfb812e86ba8c238b28c2cadb0db11e2bdb2d5c2fcf505d321384"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AnimatedButton_CategorySelectors.json",
+      "sha256": "ef7e5360ea7e6841d558c26d46af3bc73033c28308c630375113cc532c47943d"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AnimatedButton_KnobAssetSelector.json",
+      "sha256": "74b322260e7ca72b8200ac6aa4ad03b697631d60b2875a03bd080a65de0dca60"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AnimatedButton_OnOff.json",
+      "sha256": "fde3fc180369207b5430d8912a63edb29085adecd227b21476752e4ea2f4f2de"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AnimatedButton_Popup.json",
+      "sha256": "12aaac443dff6bf3b3cab22662bd0a5e944aaad3e56309cd25d3993030891414"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AnimatedButton_Toolbar.json",
+      "sha256": "2e23d70a0af3f35d67b085468bd3e32dde612b7b2f8af6b8fa619377f0f7a6a5"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AssetCatalog.json",
+      "sha256": "adc07ed14a6df0b8dbce0e923b37c468e8ed4a5ccca9a62b718f50f798f4eaf4"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_AssetCatalogItem.json",
+      "sha256": "6cecceb48f0d0b62a5f23e675fc2587bda7aa80d3a4a83a1dfe406eaa8b3dca2"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_BankAndChannelSelector.json",
+      "sha256": "60025d070b78676579f8ba6a065c3fa65426535b3cb1dbc4116cde2afb8de17c"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_BasicTypes.json",
+      "sha256": "24a9a5e6467b1b7d239efa7e8353923c7ab45d9a0a19e51e6945358a904f23cd"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_CompoundAssetParamViews.json",
+      "sha256": "4a39b103bd757ece7ba16302e49b4fc8a3713f2432114ed1309f3281ea6866fd"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_DeviceBehaviors.json",
+      "sha256": "bcc0df9b6d0fe07c84d0c94d94e7f4109031ffe364f38fa8b3ad4645f429a0a3"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_EngineData.json",
+      "sha256": "9b82eed8e1181c4fb21aa620bddbdf8e9cbc90a11c0e495722317cd38322e28e"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_ExpressionAssignEditor.json",
+      "sha256": "df8e897e9d950f125a5fbcc446ce950f0aa29c1f92cd28e7aac7d236a28cf5fe"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_GraphSlotPrePost_Regular.json",
+      "sha256": "ef7d5213d8c3a68e47cc8cb81384747b4b4ad7b09bd38a4ed6f1ccbf94f790c0"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_GraphSlotPrePost_Stacked.json",
+      "sha256": "b0c65faf6550692e0e05efe2db85f7101ce970229f14dc404cd5c5ecd1bfb30c"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_IncludeAndExcludeLists.json",
+      "sha256": "3df765a8b2e6044171b36e08f6ee893035f240b8212dc39947f9e607258956f3"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_PositionManager.json",
+      "sha256": "3229d48c83658df8633f8e2041d4a51e9766ce0ca6b7537706a651aa92c28d01"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_PresetNameView.json",
+      "sha256": "a7e9c03df9636360e43809c3440ae1754d3ab80ec310bff2dfdcaf70e7de01c3"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_RunTimeConstraints.json",
+      "sha256": "5c9d61dcad542fc2808838bc3b37d10324a3f1994c39b9c060d875f3ef68d841"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_SteppedControlData.json",
+      "sha256": "7a6e18a651da9e5280e5dddcc320d7d406815c95d287404087b52cc8010e6bae"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_StretchableBackgrounds.json",
+      "sha256": "7acadf60e5651fb434f5469ed9f2eba1fef9931eeb899861cd56cf1d6242ca1b"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_StringTable.json",
+      "sha256": "e9f1fd0ea9b995d448ccf506f0dc4481b23d47d1500c320669eae7e84d628ed9"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_SystemView.json",
+      "sha256": "3b0c60dbb271dfa286f72dd69c4b603c481a2ebf08bd655f7c1b58bc6cfcd7f9"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_TempoView.json",
+      "sha256": "2429e6abf41f49256ae6e8a6f65b59dee7d1d1aeaa14e6f7dec45d6956bcb23a"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_TunerView.json",
+      "sha256": "7c332a8c091807ba88c8238cca8cd9feb83d7d9b76b9bbdcf7766c6e3490c355"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_ValueLists.json",
+      "sha256": "81e0e975acc6cf2a84a3706f8f4229af74829b123cf3dc3df02fd895ccac24b6"
+    },
+    {
+      "path": "editor/PresentationScripts/QuadPlatform_VariousButtonBackgrounds.json",
+      "sha256": "8e5a920842e07d3e11a287cc1416caa6266d06780cd811ee77126d449a7acdb6"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_BlastShield.json",
+      "sha256": "2b3abefd887e66c8f38b668fea17c668182d59733423853dc10b9be2d6f4dfc0"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_GraphEditor.json",
+      "sha256": "89691a2d36238d8b726526b73e4f7723c3d0704b01499e35bc9e063f126c4e1f"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_GraphSlotEditor.json",
+      "sha256": "c9a87bf635773e37f44a562979c353d159b0c645040bb96cf6b9f58b40dc66d4"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_KnobAssetParamEditorView.json",
+      "sha256": "bd77199eb4326710df2dd1d5a21d8a4b5e794546affd7e6c30100cafdb4a404f"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_KnobAssetSelectorView.json",
+      "sha256": "eb63085106ecb841c02981ff3947fe711fb622feba5a5ee4c4b5cc93fc43019c"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_KnobView.json",
+      "sha256": "b9e958d9047f203e093c56ca0d24b5081165a648327b389099aef44934a3a234"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_MainContainer.json",
+      "sha256": "a1f846c32e40383254530b76fd60bd74276df62563786480aa27e2507a638959"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_MainUI.json",
+      "sha256": "3edb87140f5d1c5b94387cadd0d28cd1e482612a932fe05f7373406750b4f8d6"
+    },
+    {
+      "path": "editor/PresentationScripts/Windows_Toolbar.json",
+      "sha256": "ba54b85c3495ac51c1185f051a7cac928e5a4f8c1dfd769191767a3cb3b72868"
+    },
+    {
+      "path": "editor/System.ValueTuple.dll",
+      "sha256": "516a9bb9300e1d1f4fa5b8f269e0ab1816963cbe11c8e9511ff5500b282235e2"
+    },
+    {
+      "path": "editor/libusb-1.0.dll",
+      "sha256": "1ca58b8f7d38a74c862fc4dac47642fc78248568a7c6337117bcae1471848284"
+    },
+    {
+      "path": "editor/msvcp140.dll",
+      "sha256": "f0cda2a0cf1fe6fbbf579b9098462329d3aaa7513a207af2e0f33b01456e388a"
+    },
+    {
+      "path": "editor/res/Delays.models",
+      "sha256": "a38ef854d19394c7e3e70590252dda9d3f93d5caa99cdb1d8959bcb4956aa208"
+    },
+    {
+      "path": "editor/res/Modulations.models",
+      "sha256": "daad48db28cba4062b44de747cfc88496296e944dec481934c6c6aaa23557dc6"
+    },
+    {
+      "path": "editor/res/Pitch.models",
+      "sha256": "a9642d9d278f445d419b03200165c1708194e023ee57c20a4ea7bb2029aafa2c"
+    },
+    {
+      "path": "editor/res/Y2MainSymTab.dat",
+      "sha256": "cc9d21db76eb79c1b1e1a9a81b317f94d52561517327d0c5e8b565a3a0396bc3"
+    },
+    {
+      "path": "editor/res/amps.models",
+      "sha256": "937c25625b0eed34a20ca460edc741aedf6d157a079b9ed026582e567ed3eda1"
+    },
+    {
+      "path": "editor/res/default_preset.json",
+      "sha256": "04cf279e6f1b4fc46c238f410f1f3dcf6f176cbda5544e10757ee278ba67aa3c"
+    },
+    {
+      "path": "editor/res/fixed.models",
+      "sha256": "81fd55f58393a916008c16e5d126e5ea9e74c12dbcb46bbe7b64cee0ea601b05"
+    },
+    {
+      "path": "editor/res/reverbs.models",
+      "sha256": "eb17e0fc603bc10b4073e1dbf88a0408d22202f0ccbfb17d7bdb4907afa420e9"
+    },
+    {
+      "path": "editor/vcruntime140.dll",
+      "sha256": "2fa6efc053203460a23d3a25158f227d895d2dadc63acc1a372da97c3a4281c3"
+    },
+    {
+      "path": "official.ctf",
+      "sha256": "f9fe2482e561bef8a04128a38af89cadee4f8d06071b06a9053e36c206471ae8"
+    }
+  ],
+  "personal_ir_or_presets": false
+}

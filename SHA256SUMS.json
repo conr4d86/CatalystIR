@@ -1,0 +1,178 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "e23aeb1c879c08a793827d5c309e9ca03a965b1f33cd7168db5b70e3540b6df4"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "sha256": "ac3c45899dec2e75073efd0bf419d3495fb00dc995ce97fb957dc7d9f7051302"
+  },
+  {
+    "path": ".github/workflows/windows.yml",
+    "sha256": "1c14799b0c66183900af9f2d1194191ec56a5ebf874aa24e0695a82f4f2933b9"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "6db329a026202cf3124086a94a300de3b8ef626208ae20c7d48ab0f831ccb7d7"
+  },
+  {
+    "path": "AppVersion.cs",
+    "sha256": "3c999e1f3f49649cf70fb61ab4ebc41bb3c556f94abb27e8ef6d81b2ce937eb4"
+  },
+  {
+    "path": "assets/catalyst-cx60-front.png",
+    "sha256": "7b41a8960fa47e1143c397a431aaad054b860f108d5a371d4785c7709f6da1c3"
+  },
+  {
+    "path": "assets/catalyst-cx60-front.source.json",
+    "sha256": "39ab615e82d6c88c03c84ed1bc50d85c91fb179b7d3b46e2898eea4efc94c7bd"
+  },
+  {
+    "path": "assets/catalystir.ico",
+    "sha256": "cc9765597c22113558e959ef0ce55fcc8067bb3624038d465be647b3f0421bfa"
+  },
+  {
+    "path": "build.ps1",
+    "sha256": "d5515a61ee8df07f924d34988cc3abd6f2a5f3fe6bc2e61b35deb412c013fe99"
+  },
+  {
+    "path": "CentralAdapter.cs",
+    "sha256": "5bb58377e249d5c26bb9aa1ec8bd29b0064f3cd0172f16312f45dfc8ff3d007e"
+  },
+  {
+    "path": "CreateAppIcon.cs",
+    "sha256": "4c64b7f26b61cb5c282a92ce2d02dc42c3c7306ec85f0fe18b81b32879537201"
+  },
+  {
+    "path": "distribution/firmware-multi-patch.json",
+    "sha256": "82161d5b805f3c89da5ae0172075e0cc3b96f71fb07e40053240063fda0788fa"
+  },
+  {
+    "path": "docs/COMPILAR.md",
+    "sha256": "95c87df1f672befc4d601db4b6d5ffed95015f9913fc53ee431d9ee2b919fc0a"
+  },
+  {
+    "path": "docs/images/app.png",
+    "sha256": "2d134b168f266340853a26631be702b9e960108bba3169b9159551e01d8a46cc"
+  },
+  {
+    "path": "docs/RECUPERACION.md",
+    "sha256": "f38cff4f750e74255ef2beeafbb016b406daf722af712236369c328e84e459df"
+  },
+  {
+    "path": "docs/USO.md",
+    "sha256": "51d19427456a7f8612bfcfe275cb91a2904e94f3e9b3a2b2457d12ca776291b5"
+  },
+  {
+    "path": "EngineProbe.cs",
+    "sha256": "df29cb02fcaf51cd8ac0fbb3c2192e09499b6ac5e6903a5f157a34e563058c7f"
+  },
+  {
+    "path": "FFTBank.cs",
+    "sha256": "c4ae30c8ea199cee7d8da224a65afb7c68594758010472e79976512a56193edd"
+  },
+  {
+    "path": "FirmwareCodec.cs",
+    "sha256": "34d1cc9d39250be7062d4e7101b851604d9bf8454b60eac43a3c85d48d6c1244"
+  },
+  {
+    "path": "FirmwarePatch.cs",
+    "sha256": "38d2686f5477afe7934e8e121ea923f7e8c50cb1e3033e5168fca88c5069b170"
+  },
+  {
+    "path": "GlassUI.cs",
+    "sha256": "ed19a806c8e34b54c5b8bd4b726e8d851b8e9bc7dc1a37d02c721364c146814a"
+  },
+  {
+    "path": "included/COMPONENTS.json",
+    "sha256": "b930e066cfacca894d9319f889e30a293f40bd04b6b1294fe1d2b07c363009da"
+  },
+  {
+    "path": "included/private-bundle.zip",
+    "sha256": "c110857b687e467b1b76614c6f93e1dd8832ca3367ce1b1cb8dc1606b0e3c9ad"
+  },
+  {
+    "path": "InProcessSDK.cs",
+    "sha256": "ba1787b592c3d2b8af7564e6f9b1f3ec43e1c8291fb5d266fad15f4b7d4e4e8d"
+  },
+  {
+    "path": "IRFilters.cs",
+    "sha256": "55cf55d2f423934f1716c32bcfe28f3ca110c03b8a1a924036520690b9d828c5"
+  },
+  {
+    "path": "IRLevels.cs",
+    "sha256": "59470f9d1508a70224f4897eb6f1cf47c51104dfc35b4baa864b545d96ba24bb"
+  },
+  {
+    "path": "IRLevelsTests.cs",
+    "sha256": "2bad4665b05f8128b003d44fa0a565b6e2708a0439a2c758967a3218ae145e45"
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "cd61708fd59600562aee99e0f2fdb32cd59ecdbb04ed93f60b4515fc80db6ea2"
+  },
+  {
+    "path": "MultiIRCodec.cs",
+    "sha256": "3b7ea663da5d98df8543b68997c788caa37d5fc9c2affa4c3dde9806d09abf6d"
+  },
+  {
+    "path": "MultiIRSlots.cs",
+    "sha256": "0332aab810f8c9b0049e51632a136bd152c76a304b111fd75dda8578b3f2f158"
+  },
+  {
+    "path": "MultiIRSlotsTests.cs",
+    "sha256": "a735f37adc4819909ff776db0999e60f294caf40f2ca1f01371ab2c888339aa6"
+  },
+  {
+    "path": "MultiIRTests.cs",
+    "sha256": "009ab6195cb0da056eb7b2659a242cf1fb637eca3854e1b2140f88f8d6d2b3e1"
+  },
+  {
+    "path": "OneClickApp.cs",
+    "sha256": "ea188fd928d0b7d79b75cf8a6b29262d9bc51dc0e5c3f2eb6677529f2be886a7"
+  },
+  {
+    "path": "OneClickBundle.cs",
+    "sha256": "176a928a0d31f8440f84d3cd9249587c2827106b07043978e461a43fc4779941"
+  },
+  {
+    "path": "OneClickWorkflow.cs",
+    "sha256": "4570af1775fd2798933831447a8ad3fb7cbd6ead07df3863b4a59113fbcf804f"
+  },
+  {
+    "path": "OneClickWorkflowTests.cs",
+    "sha256": "424b393dfbe815991bd3097fdabc04f2410dc260b6fe04d214fe0619576c7244"
+  },
+  {
+    "path": "ProjectLinks.cs",
+    "sha256": "01d28c16f89c2e093010bfab4e039d057551f79335ea2c8f2f057e468f638d88"
+  },
+  {
+    "path": "README.md",
+    "sha256": "dc4a1a21744a69ea907b3819b62a926ad59a81a98cfcf18e579a57f30373bad2"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "sha256": "5e8f7c2cac0191d89819031af2fc160a09935c43b4709961e5a1665831906c53"
+  },
+  {
+    "path": "TemplateSource.cs",
+    "sha256": "88f935047c8b2147293861700016cb3392ed0c3a6fd5548aa398398943ced7ef"
+  },
+  {
+    "path": "test.ps1",
+    "sha256": "a4a95ce9ec41f7b694bf7bba57c807a270914ec6ef814912568a08e06ff31384"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "e7a9137f6758570ed3ca3514c807cab3ff8873c969ab43630c25193b4004f1bb"
+  },
+  {
+    "path": "Update-Manifest.ps1",
+    "sha256": "2e8b75170bcfc2299ef31ade08542d8eea7172ddc05d5351e563ef572e992658"
+  },
+  {
+    "path": "VALIDACION.json",
+    "sha256": "8e46cc3bbbadbcc366328da202b81a8e5dfe5fcff84c7926821ec0365efbefc2"
+  }
+]

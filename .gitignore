@@ -1,0 +1,15 @@
+build/
+*.pdb
+*.exe
+*.dll
+*.wav
+*.catl6p
+*.catl6a
+*.ctf
+runtime/
+backups/
+settings/
+sessions/
+.env
+.env.*
+!included/private-bundle.zip

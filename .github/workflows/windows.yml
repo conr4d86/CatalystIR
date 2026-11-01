@@ -1,0 +1,22 @@
+name: Windows build and offline tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Build integrated EXE
+        shell: pwsh
+        run: ./build.ps1
+      - name: Test without USB or firmware writes
+        shell: pwsh
+        run: ./test.ps1
+      - uses: actions/upload-artifact@v7
+        with:
+          name: CatalystIR-Windows-experimental
+          path: build/CatalystIR.exe
+          if-no-files-found: error

@@ -1,0 +1,28 @@
+name: Problema con CatalystIR
+description: Indica el modelo y el paso donde falla, sin compartir tus WAV ni presets.
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Modelo y firmware del ampli
+      placeholder: Catalyst 60/CX60, base 2.02
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión de CatalystIR y de Windows
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos y mensaje de error
+      description: Incluye el texto útil del error; oculta datos personales. No adjuntes toda la carpeta de copias.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Estado actual del ampli
+      description: Indica si hay luces, sonido y detección USB, y qué salida has probado.

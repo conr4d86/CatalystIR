@@ -1,3 +1,11 @@
+> **Nuevo proyecto / New project:** [Catalyst CF Editor 1.0](https://github.com/conr4d86/Catalyst-CF-Editor)
+>
+> **Español:** El nuevo editor reúne dos NAM, tres IR y cambios individuales por USB después de instalar su Custom Firmware. [Descargar y leer las instrucciones](https://github.com/conr4d86/Catalyst-CF-Editor/releases/latest). Este repositorio conserva CatalystIR y sus versiones anteriores.
+>
+> **English:** The new editor combines two NAMs, three IRs and individual USB uploads after installing its Custom Firmware. [Download and read the instructions](https://github.com/conr4d86/Catalyst-CF-Editor/releases/latest). This repository retains CatalystIR and its earlier releases.
+
+---
+
 # CatalystIR 2.0 · Experimental
 
 Desarrollado por **conr4d**. Carga hasta tres IR propios dentro del Catalyst mediante USB, para usarlos en la simulación de pantalla de auriculares, Direct Out y USB.

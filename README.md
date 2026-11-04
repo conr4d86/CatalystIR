@@ -1,56 +1,74 @@
-# CatalystIR 2.0 · Experimental
+<p align="center"><img src="assets/catalyst-cf-editor.png" width="240" alt="Catalyst CF Editor"></p>
 
-Desarrollado por **conr4d**. Carga hasta tres IR propios dentro del Catalyst mediante USB, para usarlos en la simulación de pantalla de auriculares, Direct Out y USB.
+# Catalyst CF Editor
 
-![CatalystIR](docs/images/app.png)
+[Español](README.es.md) · **English**
 
-## Descargar y empezar
+A Windows editor and loader for **NAM A2 Lite and cabinet IR processing
+inside the Catalyst amplifier**. Edit the sound and update resources from one
+application; the amplifier processes audio independently of the computer.
 
-[**Descargar CatalystIR.exe**](https://github.com/conr4d86/CatalystIR/releases/download/v2.0.0-alpha.1/CatalystIR.exe) · [**Ver versiones y descargas**](https://github.com/conr4d86/CatalystIR/releases)
+**Version 1.0 is under private review.** This branch prepares the next release.
+The [Releases page](https://github.com/conr4d86/CatalystIR/releases) currently
+contains earlier CatalystIR downloads. The new **CatalystCFEditor.exe** will
+follow final user review. [CatalystIR 2.0 documentation](README-CatalystIR-2.0.md)
+remains available.
 
-Descarga **CatalystIR.exe** desde la sección **Releases** de este repositorio. Es un solo ejecutable para Windows, con firmware base y bibliotecas integrados. No requiere instalar un plugin de audio en el PC ni inicia ejecutables auxiliares para la transferencia.
+## One app, two jobs
 
-1. Cierra Catalyst Edit, conecta el ampli por USB y enciéndelo.
-2. Abre CatalystIR y carga tus WAV en **IR1**, **IR2** o **IR3**. Basta con una ranura; puedes usar cualquier combinación.
-3. Revisa el nivel y los cortes de cada IR. Los perfiles nuevos usan normalización automática y cortes de **80 Hz / 8 kHz**.
-4. Baja el volumen y pulsa **Instalar los IR**. Mantén alimentación y USB hasta que termine.
-5. Cuando aparezca **Apaga y enciende tu ampli**, reinícialo normalmente, sin pulsar botones. Mantén la app abierta para completar la activación.
-6. Espera **IR guardados ✓** y prueba con auriculares a volumen bajo.
+- **Sound editing:** amplifier/NAM, Gain, EQ, volume, noise gate, advanced
+  parameters, two effects with PRE/POST, presets and system settings.
+- **Resource management:** three **IR1/IR2/IR3** positions and two **NAM 1/NAM 2**
+  positions in **FIRMWARE CF**.
 
-**Lee antes de instalar:** [instrucciones completas](docs/USO.md) y [recuperación del amplificador](docs/RECUPERACION.md).
+Install compatible CF once. Afterwards, **Cambiar NAM / IR** updates one position
+over USB while preserving the others. A different capture does not require a
+complete firmware reinstall. Audio-engine revisions can require new firmware.
 
-## Lo que incluye
+The preamp provides **Factory Boost, EP Boost, 808 and SD-1**, with Drive,
+Level, Tone and ON/OFF. EP adds Boost/Bright. These are original circuit-informed
+approximations, not POD Go algorithms. Extended pedal controls require a NAM
+position and compatible CF. Level is before NAM and can change saturation.
 
-- Tres ranuras independientes: **IR1**, **IR2** e **IR3**.
-- Volumen automático o manual y cortes Low Cut / High Cut por IR.
-- Copia verificada de los 12 presets antes de cada transferencia.
-- Almacenamiento de los IR en el firmware y recuperación de la selección guardada en el preset al arrancar.
-- Inicio de la app con las ranuras vacías, conservando perfiles y copias. Permite instalar otra vez los mismos WAV.
-- Una única instalación para el conjunto seleccionado. Una ranura vacía usa su simulación de fábrica en esa instalación.
+## Upload a capture or IR
 
-**Cada instalación sustituye el conjunto completo.** Si quieres conservar un IR de la instalación anterior, vuelve a cargarlo en su ranura. Abrir la app con las ranuras vacías no borra nada del ampli.
+With compatible CF already installed:
 
-## Compatibilidad y límites
+1. Connect from **SONIDO** to verify the amplifier model.
+2. Open **FIRMWARE CF → Cambiar NAM / IR → Comprobar receptor**.
+3. Choose a position and drop a file, or use **Cargar NAM… / Cargar IR…**.
+4. Review levels and filters, click **Enviar al ampli**, and wait for confirmation.
 
-Esta versión comprueba **Catalyst 60 / CX60 con firmware base 2.02**. No habilita por inferencia otros modelos ni versiones. Requiere Windows con .NET Framework 4.8 o posterior y el controlador USB del Catalyst funcionando.
+Return to **SONIDO** to edit. The app closes the data connection before
+reconnecting the editor. Close other Line 6 editors/managers while using it.
+The current app interface is Spanish; instructions retain its actual labels.
 
-Formato admitido: **WAV mono a 48 kHz, entre 1 y 2048 muestras**, PCM de 16/24/32 bits o float32. No convierte automáticamente estéreo, frecuencias distintas ni IR más largos.
+Supported NAMs are **A2 Lite, mono, 48 kHz**. Other architectures are not
+automatically converted. Decodable IR files are adapted to the internal format
+when needed, preserving the original. New IR profiles use adjustable **80 Hz /
+8 kHz** cuts and automatic or manual level.
 
-Los tres IR han sido instalados y probados auditivamente por el desarrollador en su unidad. Es una prueba en una unidad, no una certificación general. El informe [VALIDACION.json](VALIDACION.json) separa esa confirmación de las comprobaciones de software y de las pruebas todavía pendientes, incluida la verificación independiente de todos los arranques sin USB y las salidas físicas.
+[Usage](docs/CF_EDITOR_USO.md) · [FAQ](docs/CF_EDITOR_FAQ.md) ·
+[Recovery](docs/CF_EDITOR_RECUPERACION.md) · [Validation](docs/CF_EDITOR_VALIDATION.md)
 
-Es una modificación experimental de firmware. Una interrupción o un fallo puede dejar el ampli sin arrancar o sin audio y requerir recuperación. [Ten preparadas tus copias y el procedimiento](docs/RECUPERACION.md).
+## Test status
 
-## Compilar y colaborar
+Tested on one Catalyst 60/CX60 with a 2.02 base. The user confirmed boot,
+sound, NAM uploads over USB and a positive listening result with the revised
+pedal engine. Short observations with NAM 2 active added no late blocks for
+EP, 808 or SD-1. Manual retesting of the app's save/layout update is pending.
 
-El repositorio incluye el código y el contenido integrado necesario para compilar en Windows:
+100/200 family handling exists in code, but these models **have not been
+tested on physical units**. This is not a general compatibility certification
+or a guarantee for every setting and use case.
 
-```powershell
-.\build.ps1
-.\test.ps1
-```
+## Share and contribute
 
-Salida: `build/CatalystIR.exe`. Consulta [compilación y pruebas](docs/COMPILAR.md). Las pruebas automatizadas no envían firmware a ningún ampli.
+The final source/build package and screenshots will accompany the approved
+release. This documentation branch includes no user presets, commercial captures,
+IR files or device logs. The Windows EXE is not digitally signed.
 
-Para informar de un problema, indica modelo, versión, Windows, paso y mensaje de error. Evita adjuntar tus WAV, presets o toda la carpeta de copias.
+Developed by **conr4d**. Independent project, not officially affiliated with Line 6.
 
-Código propio bajo [licencia MIT](LICENSE). El firmware, las bibliotecas y los recursos de terceros conservan su autoría; consulta [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Proyecto independiente de conr4d, sin afiliación oficial con Line 6.
+[GitHub](https://github.com/conr4d86/CatalystIR) ·
+[Buy me a coffee](https://buymeacoffee.com/conr4d)
